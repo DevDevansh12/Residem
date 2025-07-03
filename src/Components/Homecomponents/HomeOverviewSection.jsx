@@ -1,4 +1,3 @@
-import React from "react";
 import { Home, Sun, Snowflake, ShieldCheck } from "lucide-react";
 
 const HomeOverviewSection = () => {
@@ -31,7 +30,7 @@ const HomeOverviewSection = () => {
 
   return (
     <section className="w-full px-6 md:px-16 py-16">
-      <div className="flex flex-col md:flex-row justify-between items-start gap-12">
+      <div className="flex flex-col md:flex-row items-center justify-center">
         <div className="flex-1">
           <span className="inline-block bg-gray-100 text-sm px-3 py-1 rounded">
             Home Overview
